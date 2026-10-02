@@ -16,6 +16,11 @@
     </dependency>
   </dependencies>
   <properties>
+    <sonar.host.url>http://127.0.0.1:9000</sonar.host.url>
+    <sonar.projectKey>sample-java-app</sonar.projectKey>
+    <sonar.projectName>sample-java-app</sonar.projectName>
+    <sonar.sources>src/main/java</sonar.sources>
+    <sonar.tests>src/test/java</sonar.tests>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <build>
